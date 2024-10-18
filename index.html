@@ -1,12 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WATAN</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/card/card.css" />
+    <link rel="stylesheet" href="CSS/card/card-body.css" />
+    <link rel="stylesheet" href="CSS/card/card-thumb.css" />
+    <link rel="stylesheet" href="CSS/topics/topics.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav>
+          <div class="head-nav">
+            <div class="brand">
+              <ion-icon name="book-outline" class="book-icon"></ion-icon>
+              <p>WATAN</p>
+            </div>
+            <div class="search-div">
+              <input
+                type="search"
+                class="search"
+                placeholder="Search by title"
+              /><ion-icon class="search-icon" name="search-outline"></ion-icon>
+            </div>
+          </div>
+          <ul class="menu">
+            <a href="#"><li>Home</li></a>
+            <a href="#topics"><li>Hot Topics</li></a>
+            <a href="#books"><li>Books</li></a>
+            <a href="#popular-tags"><li>Popular tags</li></a>
+            <a href="#contact"><li>Contact</li></a>
+          </ul>
+        </nav>
+      </header>
+      <section id="about" class="about-me">
+        <article class="info">
+          <p class="hello">Hello Everyone!</p>
+          <p class="first-p">I'm <span class="name">Mai Lahlouh</span></p>
+          <p>
+            A passionate reader who loves exploring different genres and
+            discovering new authors. Through this space, I share my thoughts on
+            a variety of books from fiction to non-fiction, classics to
+            contemporary works. Whether you're an avid reader or just looking
+            for your next great read, I hope you'll find inspiration here.
+          </p>
+        </article>
+        <div>
+          <img src="../assets/images/about-image.png" />
+        </div>
+      </section>
+      <section id="topics">
+        <p id="hot-topics">Hot topics</p>
+        <div class="list">
+          <div class="card">
+            <section class="card-thumb1">
+              <img class="blure zoom" src="assets/images/book1.jpeg" alt="" />
+              <div class="content hidden">
+                <div>
+                  <span>
+                    <ion-icon name="person"></ion-icon>
+                  </span>
+                  <span class="auth-name"> Suzan abuahawa </span>
+                </div>
+                <div>
+                  <span>
+                    <ion-icon name="calendar-outline"></ion-icon>
+                  </span>
+                  <span> February 15, 2010 </span>
+                </div>
+                <div class="links">
+                  <span>
+                    <ion-icon name="pricetag"></ion-icon>
+                  </span>
+                  <div class="text-style">
+                    <span> Historical </span>
+                    <span> Politics </span>
+                    <span> War </span>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <article class="card-body1">
+              <h4>Mornings in Jenin</h4>
+              <p class="blog-body">
+                is a historical novel written by Susan Abulhawa and first
+                published in February 15, 2010. It provides a deeply emotional
+                and multi-generational narrative of a Palestinian family's
+                experiences from the 1948 Nakba through to the early 21st
+                century.
+              </p>
+              <a class="read-more" href="../posts/post1.html">Read More</a>
+            </article>
+          </div>
+          <div class="card">
+            <article class="card-body2">
+              <h4>Returning to Haifa</h4>
+              <p class="blog-body">
+                is a novella written by Ghassan Kanafani, a prominent
+                Palestinian author and journalist. First published in 1969, this
+                work is one of the most significant pieces of Palestinian
+                literature and a powerful exploration of themes such as
+                identity, displacement, and the Palestinian experience following
+                ...
+              </p>
+              <a class="read-more" href="../posts/post2.html">Read More</a>
+            </article>
+            <section class="card-thumb2">
+              <img class="blure zoom" src="assets/images/book2.jpg" alt="" />
+              <div class="content hidden">
+                <div>
+                  <span>
+                    <ion-icon name="person"></ion-icon>
+                  </span>
+                  <span class="auth-name"> Ghassan Kanafani </span>
+                </div>
+                <div>
+                  <span>
+                    <ion-icon name="calendar-outline"></ion-icon>
+                  </span>
+                  <span> Aug.24, 2015 </span>
+                </div>
+                <div class="links">
+                  <span>
+                    <ion-icon name="pricetag"></ion-icon>
+                  </span>
+                  <div class="text-style">
+                    <span> Historical Fiction </span>
+                    <span> Classics </span>
+                    <span> Politi </span>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section id="books" class="box">
+        <p>Editor's picked</p>
+        <div class="book-list">
+          <div class="book">
+            <div class="book-image">
+              <img src="assets/images/ان-تبقى.png"/>
+            </div>
+            <div>
+              <div class="category">
+                <p>#Literary Fiction</p>
+                <p>3 min read</p>
+              </div>
+              <p class="title">To Remain</p>
+            </div>
+            <div class="author">mmmmm</div>
+          </div>
+          <div class="book">2</div>
+          <div class="book">3</div>
+          <div class="book">4</div>
+        </div>
+      </section>
+      <section id="popular-tags" class="box">popular tags</section>
+      <footer id="contact" class="box">Footer</footer>
+    </div>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
 </html>
