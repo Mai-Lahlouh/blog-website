@@ -1,0 +1,23 @@
+.about-me {
+  display: flex;
+  font-size: 13px;
+}
+p.hello {
+  margin-top: 30px;
+}
+.about-me img {
+  width: 170px;
+  height: 230px;
+  padding-top: 40px;
+}
+.first-p {
+  font-size: x-large;
+  padding: 10px 0;
+}
+.name {
+  color: #df9b2e;
+}
+article.info {
+  margin: 25px;
+  padding-top: 20px;
+}

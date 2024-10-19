@@ -1,0 +1,63 @@
+.card > section.card-thumb1 {
+  width: 40%;
+  transform: skewX(-3deg);
+  transform-origin: 0%-20%;
+  overflow: hidden;
+}
+.card > section.card-thumb2 {
+  width: 40%;
+  transform: skewX(3deg);
+  transform-origin: 0%-20%;
+  overflow: hidden;
+}
+.card img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  object-position: center;
+}
+.card .content {
+  position: absolute;
+  inset: 0;
+  background: #0f0f0fc8;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 20px;
+  gap: 3px;
+  font-size: 14px;
+}
+section > img,
+section > .content {
+  transition: 200ms ease-in-out;
+}
+section > .content.hidden {
+  opacity: 0;
+}
+section:hover > .content.hidden {
+  opacity: 1;
+}
+section:hover > img.blur {
+  filter: blur(5px);
+}
+section:hover > img.zoom {
+  transform: scale(1.1);
+}
+ion-icon {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+.auth-name,
+.text-style > span {
+  border-bottom: 2px dotted #ffffff;
+  margin-right: 5px;
+  display: inline;
+}
+span.part4 {
+  color: #01f01d;
+  border-bottom: 2px dotted #01f01d;
+}
+.links {
+  display: flex;
+}

@@ -1,0 +1,15 @@
+#topics-picked > p {
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+#topics-picked {
+  margin: 0 10px 10px;
+  padding: 10px;
+}
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 355px);
+  place-self: center;
+  gap: 10px;
+}

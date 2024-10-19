@@ -3,133 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background-color: rgb(246, 244, 240);
 }
 .container {
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: auto auto 200px;
   grid-template-areas:
     "head"
-    "about"
-    "topics"
-    "books"
-    "popular-tags"
+    "main"
     "footer";
 }
-.header {
-  color:  rgb(246, 244, 240);
-}
-.header p {
-  padding-left: 10px;
-  font-size: x-large;
-}
-.header .menu {
-  display: none;
-}
-.brand {
-  display: flex;
-  align-items: center;
-
-}
-.header:hover .menu {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(161, 202, 202);
-}
-
-.header li {
-  list-style-type: none;
-  height: 30px;
-  border-bottom: 1px solid white;
-  padding-top: 0.5em;
-  text-align: center;
-}
-.header a {
-  color: white;
-  text-decoration: none;
-}
-.box {
-  border: 1px solid red;
-}
-.book-icon {
-  width: 30px;
-  height: 40px;
-  color: #f6f4f0;
-}
-.head-nav{
-  display: flex;
-  background-color: #16a3a5;
-  height: 50px;
-  padding: 10px;
-  justify-content: space-between;
-  align-items: center;
-}
-.search-div{
-  display: flex;
-}
-.search{
-  border: none;
-  border-radius: 10px;
-  height: 22px;
-  color: gray;
-  padding-left: 5px;
-  font-size: 10px;
-}
-.search:focus{
-  outline: none;
-}
-.search-icon{
-  width: 20px;
-  height: 20px;
-}
-.about-me {
-  display: flex;
-  font-size: 13px;
-}
-p.hello{
-  margin-top: 30px;
-}
-.about-me img {
-  width: 170px;
-  height: 230px;
-  padding-top: 40px;
-}
-.first-p {
-  font-size: x-large;
-  padding: 10px 0;
-}
-.name {
-  color: #df9b2e;
-}
-article.info {
-  padding: 20px 0 0px 20px;
-}
-
 #header {
   grid-area: head;
 }
-#about {
-  grid-area: about;
+#main {
+  grid-area: main;
 }
-#topics {
-  grid-area: topics;
-  margin: 0 10px 10px;
-  padding: 10px;
-}
-#topics > p{
-  font-size: x-large;
-  margin-bottom: 15px;
-}
-#books > p{
-  font-size: x-large;
-  margin-bottom: 15px;
-}
-#books {
-  grid-area: books;
-  margin: 0 10px 10px;
-  padding: 10px;
-}
-#contact {
+#footer {
   grid-area: footer;
+}
+.box {
+  border: 1px solid red;
 }
