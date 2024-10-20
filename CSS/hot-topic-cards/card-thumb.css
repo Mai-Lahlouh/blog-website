@@ -11,7 +11,6 @@
   overflow: hidden;
 }
 .card img {
-  display: block;
   height: 100%;
   width: 100%;
   object-fit: fill;
@@ -26,7 +25,7 @@
   color: #ffffff;
   padding: 20px;
   gap: 3px;
-  font-size: 14px;
+  font-size: 13px;
 }
 section > img,
 section > .content {
@@ -60,4 +59,9 @@ span.part4 {
 }
 .links {
   display: flex;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .card .content {
+    font-size: 10px;
+  }
 }

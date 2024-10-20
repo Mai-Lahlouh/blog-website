@@ -1,7 +1,6 @@
 .book {
   height: 100%;
   background-color: #ffffff;
-  margin: 5px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -12,12 +11,13 @@
 .book .book-image {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  height: 240px;
 }
 .book-image img {
   width: 100%;
   height: 100%;
   object-fit: fill;
+  overflow: hidden;
   border-radius: 5px;
 }
 .category {
@@ -29,7 +29,8 @@
 }
 p.book-title {
   padding: 5px;
-  font-weight: 600;
+  font-weight: 550;
+  font-size: 15px;
 }
 .book > .author {
   margin-top: 5px;
@@ -40,13 +41,13 @@ p.book-title {
 }
 .author .author-image {
   width: 20px;
-  border: 1px solid rgb(52, 49, 49);
+  border: 1px solid #343131;
   border-radius: 50%;
   margin-left: 5px;
 }
 .book-list .author-info {
   display: flex;
-  font-size: 10px;
+  font-size: 11px;
   gap: 5px;
   margin-bottom: 10px;
 }
@@ -57,5 +58,55 @@ p.book-title {
 #topics-picked a.read-more {
   font-size: 10px;
   padding-right: 10px;
-  color: #df9b2e;
+  color: #bf5555;
+}
+
+@media (min-width: 600px) {
+  .book .book-image {
+    height: 240px;
+  }
+  #topics-picked a.read-more {
+    padding-right: 5px;
+  }
+  p.book-title {
+    padding-left: 5px;
+    font-size: 12px;
+  }
+  .book-list .author-info {
+    font-size: 7px;
+    gap: 2px;
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 901px) {
+  .book {
+    padding: 5px;
+  }
+  .book .book-image {
+    height: 260px;
+  }
+  p.book-title {
+    padding-left: 5px;
+    font-size: 15px;
+  }
+  .book-list .author-info {
+    font-size: 13px;
+    gap: 2px;
+    margin-bottom: 5px;
+  }
+  #topics-picked a.read-more {
+    font-size: x-small;
+  }
+  .data p.book-date {
+    font-size: 10px;
+  }
+  .author .author-image {
+    width: 30px;
+    height: 30px !important;
+  }
+}
+@media (min-width: 1000px) {
+  .book {
+    padding: 10px;
+  }
 }

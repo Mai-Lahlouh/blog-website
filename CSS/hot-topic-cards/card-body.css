@@ -1,23 +1,36 @@
 .card > article {
   width: 60%;
-  padding: 3%;
+  padding: 15px;
 }
-.card h3 {
-  color: #8f8989d2;
-  margin: 0;
-  font: menu;
-  font-size: 16px;
+.article-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: medium;
+  font-weight: 650;
 }
-.blog-body {
-  font-size: 12px;
+.article-body > .sub-title {
+  font-size: 13px;
   color: #6e6c6c;
   margin-top: 10px;
+  font-weight: 100;
 }
-.card a.read-more {
-  float: right;
-  color: #df9b2e;
+.article-body > a.read-more {
+  text-align: end;
+  color: #bf5555;
   text-decoration: underline;
   margin-top: 10px;
   padding-right: 10px;
-  font-size: large;
+  font-size: 10px;
+}
+@media (min-width: 901px) {
+  .article-body {
+    font-size: large;
+  }
+  .article-body > .sub-title {
+    font-size: 15px;
+  }
+  .article-body > a.read-more {
+    font-size: 15px;
+  }
 }
