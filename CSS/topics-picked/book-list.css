@@ -1,5 +1,5 @@
 #topics-picked > p {
-  font-size: xx-large;
+  font-size: 1.6rem;
   color: rgb(47, 46, 46);
   margin-bottom: 20px;
 }
@@ -14,7 +14,8 @@
   place-self: center;
   gap: 20px;
 }
-@media (min-width: 600px) {
+
+@media (min-width: 671px) {
   .book-list {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -23,12 +24,16 @@
     gap: 10px;
   }
 }
+
 @media (min-width: 901px) {
   #topics-picked {
     margin: 20px 40px;
   }
   #topics-picked > p {
     margin-left: 10px;
+  }
+  #topics-picked > p {
+    font-size: 2rem;
   }
 }
 @media (min-width: 1000px) {

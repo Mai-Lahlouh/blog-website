@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A literary blog sharing thoughts on various books and hot topics in literature."
+    />
+    <meta name="author" content="Mai Lahlouh" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WATAN</title>
     <link rel="stylesheet" href="CSS/styles.css" />
@@ -28,14 +33,15 @@
                 type="search"
                 class="search"
                 placeholder="Search by title"
+                aria-label="Search by title"
               /><ion-icon class="search-icon" name="search-outline"></ion-icon>
             </div>
           </div>
           <ul class="menu">
-            <a href="#"><li>Home</li></a>
-            <a href="#hot-topics"><li>Hot Topics</li></a>
-            <a href="#topics-picked"><li>Topics Picked</li></a>
-            <a href="#footer"><li>Contact</li></a>
+            <li><a href="#">Home</a></li>
+            <li><a href="#hot-topics">Hot Topics</a></li>
+            <li><a href="#topics-picked">Topics Picked</a></li>
+            <li><a href="#footer">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -53,7 +59,7 @@
             </p>
           </article>
           <div>
-            <img src="../assets/images/about-image.svg" />
+            <img src="../assets/images/about-image.svg" alt="About Me Image" />
           </div>
         </section>
         <section id="hot-topics">
@@ -61,7 +67,7 @@
             <p>Hot topics</p>
             <p class="sub-title">
               Stay up to date with the latest buzz in the literary world! Here's
-              what everyone is talking about right niw.
+              what everyone is talking about right now.
             </p>
           </div>
           <!--Card #1-->
@@ -74,10 +80,14 @@
                 work is one of the most significant pieces of Palestinian
                 literature..
               </p>
-              <a class="read-more" href="../posts/post1.html">Read More</a>
+              <a class="read-more" href="../posts/post.html">Read More</a>
             </article>
             <section class="card-thumb2">
-              <img class="blure zoom" src="assets/images/book2.jpg" alt="" />
+              <img
+                class="blure zoom"
+                src="assets/images/book2.jpg"
+                alt="Returning to Haifa Book Cover"
+              />
               <div class="content hidden">
                 <div>
                   <span>
@@ -107,7 +117,11 @@
           <!--Card#2-->
           <div class="card">
             <section class="card-thumb1">
-              <img class="blure zoom" src="assets/images/book1.jpeg" alt="" />
+              <img
+                class="blure zoom"
+                src="assets/images/book1.jpeg"
+                alt="Mornings in Jenin Book Cover"
+              />
               <div class="content hidden">
                 <div>
                   <span>
@@ -140,7 +154,7 @@
                 published in February 15, 2010. It provides a deeply emotional
                 and multi-generational narrative of a Palestinian family's..
               </p>
-              <a class="read-more" href="../posts/post1.html">Read More</a>
+              <a class="read-more" href="../posts/post2.html">Read More</a>
             </article>
           </div>
           <!--Card#3-->
@@ -156,7 +170,11 @@
               <a class="read-more" href="../posts/post2.html">Read More</a>
             </article>
             <section class="card-thumb2">
-              <img class="blure zoom" src="assets/images/book3.jpg" alt="" />
+              <img
+                class="blure zoom"
+                src="assets/images/book3.jpg"
+                alt="The Blue Between Sky and Water Book Cover"
+              />
               <div class="content hidden">
                 <div>
                   <span>
@@ -300,12 +318,18 @@
           <address>Address, <br />Palestine, Jenin</address>
         </section>
         <div id="bottom-side">
-          <hr>
+          <hr />
           <div class="Copyright">
             <div class="social-media">
-              <a href="mailto:nlahlouh09@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
-              <a href="https://www.linkedin.com/in/mai-lahlouh"><ion-icon name="logo-linkedin"></ion-icon></a>
-              <a href="https://github.com/Mai-Lahlouh"><ion-icon name="logo-github"></ion-icon></a>
+              <a href="mailto:nlahlouh09@gmail.com"
+                ><ion-icon name="mail-outline"></ion-icon
+              ></a>
+              <a href="https://www.linkedin.com/in/mai-lahlouh"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+              <a href="https://github.com/Mai-Lahlouh"
+                ><ion-icon name="logo-github"></ion-icon
+              ></a>
             </div>
             <p>©Copyright 2024 Mai Lahlouh. All Rights Reserved</p>
             <p>Terms . Privacy Policy</p>

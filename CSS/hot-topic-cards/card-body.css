@@ -6,11 +6,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  font-size: medium;
+  font-size: 1rem;
   font-weight: 650;
 }
 .article-body > .sub-title {
-  font-size: 13px;
+  font-size: 0.875rem;
   color: #6e6c6c;
   margin-top: 10px;
   font-weight: 100;
@@ -21,16 +21,16 @@
   text-decoration: underline;
   margin-top: 10px;
   padding-right: 10px;
-  font-size: 10px;
+  font-size: 0.875rem;
 }
 @media (min-width: 901px) {
   .article-body {
-    font-size: large;
+    font-size: 1rem;
   }
   .article-body > .sub-title {
-    font-size: 15px;
+    font-size: .81rem;
   }
   .article-body > a.read-more {
-    font-size: 15px;
+    font-size: 1rem;
   }
 }

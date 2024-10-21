@@ -12,6 +12,14 @@
     "main"
     "footer";
 }
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
 #header {
   grid-area: head;
 }
@@ -19,29 +27,18 @@
   grid-area: main;
 }
 #footer {
-  margin-top: 100px;
+  margin-top: 50px;
   grid-area: footer;
-  height: 200px !important;
 }
 @media (min-width: 600px) {
   .container {
-    display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: auto auto auto;
-    grid-template-areas:
-      "head"
-      "main"
-      "footer";
   }
 }
 @media (min-width: 900px) {
   .container {
-    display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: auto auto auto;
-    grid-template-areas:
-      "head"
-      "main"
-      "footer";
   }
 }

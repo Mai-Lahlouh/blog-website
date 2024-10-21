@@ -1,6 +1,6 @@
 .about-me {
   display: flex;
-  font-size: 11px;
+  font-size: 0.6875rem;
   align-items: center;
   color: rgb(90, 85, 85);
   margin: 25px 20px 0;
@@ -12,7 +12,7 @@
 }
 .first-p {
   color: black;
-  font-size: x-large;
+  font-size: 1.25rem;
   padding: 5px 0;
 }
 .name {
@@ -24,7 +24,7 @@ article.info {
 }
 @media (min-width: 600px) and (max-width: 900px) {
   .about-me {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   article.info {
     margin: 50px;
@@ -38,7 +38,7 @@ article.info {
 }
 @media (min-width: 901px){
   .about-me {
-    font-size: 15px;
+    font-size: 0.9375rem;
     justify-content: center;
     gap: 20px;
   }
@@ -47,7 +47,7 @@ article.info {
     margin: 80px;
   }
   .first-p {
-    font-size: xx-large;
+    font-size: 1.5rem;
   }
   .about-me img {
     width: 300px;

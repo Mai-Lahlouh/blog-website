@@ -41,7 +41,7 @@
   text-align: center;
 }
 .header a {
-  color: rgb(59, 59, 59);
+  color: #383736;
   text-decoration: none;
 }
 .search-div {
@@ -83,11 +83,13 @@
     border-bottom: none;
     padding-top: 0;
     text-align: center;
-    color: #f6f4f0;
     font-size: 13px;
   }
   .head-nav {
     padding: 0px 20px;
+  }
+  .header a {
+    color: #f6f4f0;
   }
 }
 @media (min-width: 901px) {
@@ -118,5 +120,8 @@
   }
   .search {
     width: 150px;
+  }
+  .header a {
+    color: #f6f4f0;
   }
 }
