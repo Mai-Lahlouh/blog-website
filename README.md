@@ -28,6 +28,8 @@ The first two books featured on the homepage have dedicated blog posts, providin
 - **Returning to Haifa**: A novella by Ghassan Kanafani.
 - **Mornings in Jenin**: A historical novel by Susan Abulhawa.
 
+## Live Demo
+A live demo of the project can be found at [demo](https://watan-pb.netlify.app/).
 
 ## Contact
 If you have any questions or feedback, feel free to contact me at [Email](nlahlouh09@gmail.com).
