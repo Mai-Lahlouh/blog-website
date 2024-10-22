@@ -63,7 +63,7 @@
   width: 20px;
   height: 20px;
 }
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .head-nav {
     height: 120px;
     padding: 20px;
@@ -92,7 +92,7 @@
     color: #f6f4f0;
   }
 }
-@media (min-width: 901px) {
+@media (min-width: 1025px) {
   .head-nav {
     height: 100px;
     padding: 20px;

@@ -4,6 +4,16 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+/* When a link is clicked, fade the page out */
+.fade-out {
+  opacity: 0;
+}
+.fade-link:active {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
 }
 h1,
 h2 {

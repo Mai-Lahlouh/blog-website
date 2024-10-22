@@ -22,7 +22,7 @@
 article.info {
   padding-left: 10px;
 }
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .about-me {
     font-size: 0.9375rem;
   }
@@ -36,7 +36,7 @@ article.info {
     margin-right: 30px;
   }
 }
-@media (min-width: 901px){
+@media (min-width: 1025px){
   .about-me {
     font-size: 0.9375rem;
     justify-content: center;
