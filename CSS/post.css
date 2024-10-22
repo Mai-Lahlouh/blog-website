@@ -6,6 +6,7 @@ body {
   color: #333;
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
+  overflow-x: hidden;
 }
 /* When a link is clicked, fade the page out */
 .fade-out {
@@ -37,13 +38,14 @@ header nav a {
   border-radius: 5px;
 }
 .article-photo {
-  max-width: 800px;
+  max-width: 100%;
   height: 300px;
   margin: 20px auto;
 }
 .article-photo img {
   width: 100%;
   height: 100%;
+  object-fit: fill;
 }
 article {
   padding: 20px;
@@ -96,8 +98,8 @@ h2 {
 }
 .social-sharing a:hover {
   text-decoration: underline;
+  color: #bf5555;
 }
-
 article ul {
   padding-left: 20px;
   margin: 10px 0;
@@ -127,5 +129,16 @@ footer {
   article {
     padding: 15px;
     margin: 10px;
+  }
+  header {
+    padding: 15px;
+  }
+  header nav a {
+    font-size: 1em;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  article {
+    margin: 15px; 
   }
 }
