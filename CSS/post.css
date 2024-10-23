@@ -112,7 +112,7 @@ footer {
   padding: 20px;
   background-color: #47484d;
   color: #fff;
-  width: auto%;
+  width: auto;
 }
 @media (max-width: 768px) {
   .author-info {
